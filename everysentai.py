@@ -5,7 +5,7 @@ import tweepy, time, sys, random, urllib
 
 from wordnik import *
 apiUrl = 'http://api.wordnik.com/v4'
-apiKey = '927a73bea29d0c478d00407f12b04d881d74701bb4d7ef3f6'
+apiKey = 'x'
 client = swagger.ApiClient(apiKey, apiUrl)
 wordsApi = WordsApi.WordsApi(client)
 
